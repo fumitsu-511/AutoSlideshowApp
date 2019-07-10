@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp"
+                tools:context=".MainActivity">
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="戻る"
+                android:id="@+id/back_button"/>
+
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="再生"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/start_button"/>
+
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="進む"
+                android:id="@+id/next_button"/>
+    </LinearLayout>
+</RelativeLayout>
